@@ -221,23 +221,3 @@ a documented reason.
   published GWAS evidence, not clinical diagnostic certainty.
 
 ---
-
-## Prompts Used
-
-> 📝 **Paste the prompts you used below this section.**
-
-```
-<!-- SYSTEM PROMPT (from .agents/rules/bioinformatics-ai.md) -->
-
-
-<!-- USER PROMPT TEMPLATE -->
-
-
-<!-- Any additional prompts or iterations -->
-
-```
-
----
-
-*Report generated automatically by the Genomics AI Interpretation Pipeline.*
-*All interpretations are informational and do not constitute medical advice.*
