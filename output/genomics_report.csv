@@ -1,0 +1,150 @@
+category,gene,rsid,description,genotype,zygosity,ref,alt,interpretation,confidence_level,mechanism,found_in_vcf,is_duplicate,is_edge_case,edge_case_note,ai_skip_reason
+CYP2D6,rs3892097,"Impacts drug metabolism — especially psych meds (SSRIs, stimulants)",Effect,N/A,not resolved,,,Not available,N/A,N/A,False,False,False,,
+CYP2C19,rs4244285,"Important for proton pump inhibitors, clopidogrel, SSRIs",Regulates dopamine receptor density & cognitive flexibility,N/A,not resolved,,,Not available,N/A,N/A,False,False,False,,
+SLCO1B1,rs4149056,"Statin sensitivity — may not be pediatric-useful now, but useful in lifespan lens","Affects dopamine receptor sensitivity; linked to ADHD, impulsivity, and addiction risk",N/A,not resolved,,,Not available,N/A,N/A,False,False,False,,
+Neurotransmitter,DRD3,rs6280,"Modulates dopamine binding, influencing reward-seeking behavior",CC,homozygous ref,C,,AI skipped (--skip-ai flag),N/A,N/A,False,False,False,,--skip-ai flag used
+Neurotransmitter,DRD4,rs1800955,Dopamine receptor gene associated with novelty-seeking and attention regulation,TT,homozygous ref,T,,AI skipped (--skip-ai flag),N/A,N/A,False,False,False,,--skip-ai flag used
+Neurotransmitter,COMT,rs4680,Regulates dopamine breakdown; slower COMT function can impact executive function & stress response,GA,heterozygous,G,A,AI skipped (--skip-ai flag),N/A,N/A,True,True,False,,--skip-ai flag used
+Neurotransmitter,MAOA,rs6323,"Breaks down serotonin, dopamine, and norepinephrine; influences aggression and mood",T,hemizygous,G,T,AI skipped (--skip-ai flag),N/A,N/A,True,False,False,,--skip-ai flag used
+Neurotransmitter,MAOB,rs1799836,Mitochondrial enzyme degrading dopamine & serotonin; linked to motivation & depression,C,hemizygous,T,C,AI skipped (--skip-ai flag),N/A,N/A,True,False,False,,--skip-ai flag used
+Neurotransmitter,SLC6A3,rs28363170,Regulates dopamine transporter efficiency; affects dopamine clearance from synapses,N/A,not resolved,,,Not available,N/A,N/A,False,True,True,VNTR (variable number tandem repeat) — not typically in standard VCF,
+Neurotransmitter,SLC18A2,rs363399,Involved in dopamine vesicle storage and release; impacts motivation & cognitive function,TT,homozygous ref,T,,AI skipped (--skip-ai flag),N/A,N/A,False,True,False,,--skip-ai flag used
+Neurotransmitter,BDNF,rs6265,"Key neuroplasticity gene, affects learning, memory, and mood regulation",CC,homozygous ref,C,,AI skipped (--skip-ai flag),N/A,N/A,False,False,False,,--skip-ai flag used
+Neurotransmitter,HTR1A,rs6295,Serotonin receptor gene linked to anxiety and emotional regulation,CG,heterozygous,C,G,AI skipped (--skip-ai flag),N/A,N/A,True,False,False,,--skip-ai flag used
+Neurotransmitter,HTR2A,rs6311,"Modulates serotonin function, associated with depression and OCD",TT,homozygous alt,C,T,AI skipped (--skip-ai flag),N/A,N/A,True,False,False,,--skip-ai flag used
+Neurotransmitter,TPH1,rs1800532,Enzyme converting tryptophan to serotonin; affects mood and sleep regulation,GG,homozygous ref,G,,AI skipped (--skip-ai flag),N/A,N/A,False,False,False,,--skip-ai flag used
+Neurotransmitter,TPH2,rs4570625,"Serotonin synthesis enzyme, impacting serotonin levels and stress resilience",GG,homozygous ref,G,,AI skipped (--skip-ai flag),N/A,N/A,False,False,False,,--skip-ai flag used
+Neurotransmitter,SLC6A4,rs25531,Serotonin transporter affecting mood stability and stress response,TT,homozygous ref,T,,AI skipped (--skip-ai flag),N/A,N/A,False,False,False,,--skip-ai flag used
+Metabolic Health & Insulin Sensitivity,TCF7L2,rs7903146,Involved in insulin resistance & diabetes risk,CC,homozygous ref,C,,AI skipped (--skip-ai flag),N/A,N/A,False,False,False,,--skip-ai flag used
+Metabolic Health & Insulin Sensitivity,ADIPOQ,rs17300539,"Regulates adiponectin, affects inflammation & metabolism",GG,homozygous ref,G,,AI skipped (--skip-ai flag),N/A,N/A,False,False,False,,--skip-ai flag used
+Metabolic Health & Insulin Sensitivity,GCK,rs1799884,"Glucokinase function, affects glucose homeostasis",N/A,not resolved,,,Not available,N/A,N/A,False,False,False,,
+Metabolic Health & Insulin Sensitivity,DAO,rs10156191,"Reduced histamine clearance, linked to inflammation & gut issues",N/A,not resolved,,,Not available,N/A,N/A,False,True,False,,
+Metabolic Health & Insulin Sensitivity,HNMT,rs11558538,"Histamine metabolism efficiency, affects neurological response",CC,homozygous ref,C,,AI skipped (--skip-ai flag),N/A,N/A,False,True,False,,--skip-ai flag used
+Metabolic Health & Insulin Sensitivity,AOC1,rs1049742,"Regulates histamine degradation, impacts immune response",N/A,not resolved,,,Not available,N/A,N/A,False,False,False,,
+Metabolic Health & Insulin Sensitivity,HRH1,rs901865,"Histamine receptor function, influences allergic reactions",TT,homozygous ref,T,,AI skipped (--skip-ai flag),N/A,N/A,False,False,False,,--skip-ai flag used
+Metabolic Health & Insulin Sensitivity,IL6,rs1800795,Elevated IL-6 levels linked to chronic inflammation,N/A,not resolved,,,Not available,N/A,N/A,False,True,False,,
+Metabolic Health & Insulin Sensitivity,TNF,rs1800629,"Increased TNF-alpha, linked to immune activation & inflammation",GG,homozygous ref,G,,AI skipped (--skip-ai flag),N/A,N/A,False,True,False,,--skip-ai flag used
+Metabolic Health & Insulin Sensitivity,DRD2,rs1800497,Regulates dopamine receptor sensitivity; affects impulsivity & reward processing,AA,homozygous alt,G,A,AI skipped (--skip-ai flag),N/A,N/A,True,True,False,,--skip-ai flag used
+Metabolic Health & Insulin Sensitivity,DRD5,rs6283,"Impacts dopamine function, linked to ADHD & cognitive flexibility",CC,homozygous ref,C,,AI skipped (--skip-ai flag),N/A,N/A,False,True,False,,--skip-ai flag used
+Metabolic Health & Insulin Sensitivity,SLC6A3,rs28363170,"Regulates dopamine transporter activity, linked to hyperactivity & impulsivity",N/A,not resolved,,,Not available,N/A,N/A,False,True,True,VNTR (variable number tandem repeat) — not typically in standard VCF,
+Metabolic Health & Insulin Sensitivity,SLC18A2,rs363399,"Involved in dopamine storage & release, affecting motivation & attention",TT,homozygous ref,T,,AI skipped (--skip-ai flag),N/A,N/A,False,True,False,,--skip-ai flag used
+Metabolic Health & Insulin Sensitivity,COMT,rs4680,Slower dopamine breakdown; affects stress tolerance & executive function,GA,heterozygous,G,A,AI skipped (--skip-ai flag),N/A,N/A,True,True,False,,--skip-ai flag used
+Metabolic Health & Insulin Sensitivity,CACNA1C,rs2239030,Involved in neuronal excitability; linked to ADHD risk & cognitive function,GG,homozygous ref,G,,AI skipped (--skip-ai flag),N/A,N/A,False,True,False,,--skip-ai flag used
+Metabolic Health & Insulin Sensitivity,CADM2,rs10433500,Associated with risk-taking behavior & cognitive flexibility,GG,homozygous ref,G,,AI skipped (--skip-ai flag),N/A,N/A,False,True,False,,--skip-ai flag used
+Metabolic Health & Insulin Sensitivity,FOXP2,rs12537376,Regulates speech & language development; implicated in ADHD & autism,N/A,not resolved,,,Not available,N/A,N/A,False,True,False,,
+Metabolic Health & Insulin Sensitivity,NLGN1,rs963349,Involved in synaptic function & attention regulation,GG,homozygous ref,G,,AI skipped (--skip-ai flag),N/A,N/A,False,True,False,,--skip-ai flag used
+Metabolic Health & Insulin Sensitivity,GABRB1,rs13116355,"GABA receptor gene, linked to inhibitory control & emotional regulation",AA,homozygous ref,A,,AI skipped (--skip-ai flag),N/A,N/A,False,True,False,,--skip-ai flag used
+Metabolic Health & Insulin Sensitivity,ST3GAL3,rs11420276,"Modulates neuronal connectivity, associated with ADHD traits",TTTTTTTTTTTTTTTTTT,homozygous ref,TTTTTTTTT,,AI skipped (--skip-ai flag),N/A,N/A,False,True,False,,--skip-ai flag used
+Metabolic Health & Insulin Sensitivity,KDM4A,rs1222063,"Regulates histone demethylation, linked to neurodevelopmental function",AA,homozygous alt,G,A,AI skipped (--skip-ai flag),N/A,N/A,True,True,False,,--skip-ai flag used
+Metabolic Health & Insulin Sensitivity,PCDH7,rs28411770,"Involved in synaptic adhesion, affects attention & memory",TT,homozygous ref,T,,AI skipped (--skip-ai flag),N/A,N/A,False,True,False,,--skip-ai flag used
+Metabolic Health & Insulin Sensitivity,LINC00461,rs4916723,Linked to neuronal function & cognitive processing,CC,homozygous alt,A,C,AI skipped (--skip-ai flag),N/A,N/A,True,True,False,,--skip-ai flag used
+Metabolic Health & Insulin Sensitivity,SPAG16,rs9677504,"Impacts sperm-related gene expression, but also linked to brain function",GG,homozygous ref,G,,AI skipped (--skip-ai flag),N/A,N/A,False,True,False,,--skip-ai flag used
+Metabolic Health & Insulin Sensitivity,GABRB2,rs1946247,GABA receptor variant affecting inhibitory control,GG,homozygous alt,T,G,AI skipped (--skip-ai flag),N/A,N/A,True,True,False,,--skip-ai flag used
+Metabolic Health & Insulin Sensitivity,DOCK4,rs10155855,"Involved in cell migration & brain development, linked to ADHD",N/A,not resolved,,,Not available,N/A,N/A,False,True,False,,
+Metabolic Health & Insulin Sensitivity,IMMP2L,rs10155855,Associated with neurodevelopmental disorders including ADHD,N/A,not resolved,,,Not available,N/A,N/A,False,True,False,,
+Metabolic Health & Insulin Sensitivity,FUT9,rs4839827,"Regulates fucosylation, linked to brain development & cognitive function",CC,homozygous ref,C,,AI skipped (--skip-ai flag),N/A,N/A,False,True,False,,--skip-ai flag used
+Metabolic Health & Insulin Sensitivity,FHL5,rs4839827,Plays a role in transcriptional regulation in neurodevelopment,CC,homozygous ref,C,,AI skipped (--skip-ai flag),N/A,N/A,False,True,False,,--skip-ai flag used
+Nutrient_Absorption & Metabolism,MTHFR,rs1801133,"Reduced methylation efficiency, higher homocysteine levels",GA,heterozygous,G,A,AI skipped (--skip-ai flag),N/A,N/A,True,False,False,,--skip-ai flag used
+Nutrient_Absorption & Metabolism,MTR,rs1805087,Affects B12-dependent methylation pathways,AA,homozygous ref,A,,AI skipped (--skip-ai flag),N/A,N/A,False,False,False,,--skip-ai flag used
+Nutrient_Absorption & Metabolism,MTRR,rs1801394,"Reduced B12 recycling, possible methylation inefficiency",AG,heterozygous,A,G,AI skipped (--skip-ai flag),N/A,N/A,True,False,False,,--skip-ai flag used
+Nutrient_Absorption & Metabolism,SLC23A1,rs33972313,"Vitamin C transporter, affects antioxidant function",CC,homozygous ref,C,,AI skipped (--skip-ai flag),N/A,N/A,False,False,False,,--skip-ai flag used
+Nutrient_Absorption & Metabolism,SLC23A2,rs12479919,Regulates vitamin C uptake in cells,CC,homozygous ref,C,,AI skipped (--skip-ai flag),N/A,N/A,False,False,False,,--skip-ai flag used
+Nutrient_Absorption & Metabolism,VDR (Taq1),rs731236,"Vitamin D receptor function, affects calcium absorption",AA,homozygous ref,A,,AI skipped (--skip-ai flag),N/A,N/A,False,False,False,,--skip-ai flag used
+Nutrient_Absorption & Metabolism,VDR (Bsm1),rs1544410,Linked to vitamin D metabolism and immune function,CC,homozygous ref,C,,AI skipped (--skip-ai flag),N/A,N/A,False,False,False,,--skip-ai flag used
+Nutrient_Absorption & Metabolism,VDR (Fok1),rs2228570,Regulates vitamin D activity in bone & immune health,AA,homozygous ref,A,,AI skipped (--skip-ai flag),N/A,N/A,False,False,False,,--skip-ai flag used
+Nutrient_Absorption & Metabolism,HFE (C282Y),rs1800562,"Iron metabolism gene, linked to overload or deficiency",GG,homozygous ref,G,,AI skipped (--skip-ai flag),N/A,N/A,False,False,False,,--skip-ai flag used
+Nutrient_Absorption & Metabolism,HFE (H63D),rs1799945,"Regulates iron absorption, impacts anemia risk",CC,homozygous ref,C,,AI skipped (--skip-ai flag),N/A,N/A,False,False,False,,--skip-ai flag used
+Nutrient_Absorption & Metabolism,FADS1,rs174537,"Affects conversion of ALA to EPA/DHA, impacts omega-3 levels",GT,heterozygous,G,T,AI skipped (--skip-ai flag),N/A,N/A,True,False,False,,--skip-ai flag used
+Nutrient_Absorption & Metabolism,FADS2,rs174570,"Omega-3 and omega-6 metabolism, impacts inflammatory balance",CT,heterozygous,C,T,AI skipped (--skip-ai flag),N/A,N/A,True,False,False,,--skip-ai flag used
+Gut Brain & Microbiome Resiliance,FUT2,rs492602,"Regulates gut microbiome composition, impacts B12 absorption",AG,heterozygous,A,G,AI skipped (--skip-ai flag),N/A,N/A,True,False,False,,--skip-ai flag used
+Gut Brain & Microbiome Resiliance,NOD2,rs2066847,"Gut immune function and bacterial detection, linked to Crohn‚Äôs disease",CCCCCC,homozygous ref,CCC,,AI skipped (--skip-ai flag),N/A,N/A,False,False,False,,--skip-ai flag used
+Gut Brain & Microbiome Resiliance,IL6,rs1800795,Elevated IL-6 levels linked to chronic inflammation & immune dysregulation,N/A,not resolved,,,Not available,N/A,N/A,False,True,False,,
+Gut Brain & Microbiome Resiliance,TNF,rs1800629,"Increased TNF-alpha, linked to immune activation & inflammation",GG,homozygous ref,G,,AI skipped (--skip-ai flag),N/A,N/A,False,True,False,,--skip-ai flag used
+Gut Brain & Microbiome Resiliance,IL10,rs1800896,"Anti-inflammatory cytokine, regulates immune balance",TT,homozygous ref,T,,AI skipped (--skip-ai flag),N/A,N/A,False,True,False,,--skip-ai flag used
+Gut Brain & Microbiome Resiliance,HLA-DQ2,rs2187668,"Primary genetic risk factor for celiac disease, gluten sensitivity",CC,homozygous ref,C,,AI skipped (--skip-ai flag),N/A,N/A,False,True,False,,--skip-ai flag used
+Gut Brain & Microbiome Resiliance,HLA-DQ8,rs7454108,"Increased gluten intolerance risk, linked to autoimmune conditions",TT,homozygous ref,T,,AI skipped (--skip-ai flag),N/A,N/A,False,True,False,,--skip-ai flag used
+Gut Brain & Microbiome Resiliance,PON1,rs662,"Detox pathway for pesticides & heavy metals, influences oxidative stress",N/A,not resolved,,,Not available,N/A,N/A,False,False,False,,
+Gut Brain & Microbiome Resiliance,GSTM1,Null,"Glutathione detox function, impacts toxin clearance",N/A,not resolved,,,Not available,N/A,N/A,False,False,True,"GSTM1 gene deletion — not a point variant, requires CNV analysis",
+Gut Brain & Microbiome Resiliance,GSTP1,rs1695,GSTP1 detox pathway affecting environmental toxin metabolism,AA,homozygous ref,A,,AI skipped (--skip-ai flag),N/A,N/A,False,False,False,,--skip-ai flag used
+Gut Brain & Microbiome Resiliance,CYP1A2,rs762551,Regulates caffeine metabolism & liver detoxification efficiency,CA,heterozygous,C,A,AI skipped (--skip-ai flag),N/A,N/A,True,False,False,,--skip-ai flag used
+Gut Brain & Microbiome Resiliance,CYP3A4,rs2740574,"Drug metabolism enzyme, impacts liver clearance of medications",N/A,not resolved,,,Not available,N/A,N/A,False,False,False,,
+Gut Brain & Microbiome Resiliance,NAT2,rs1799930,Acetylation efficiency affects detox of drugs & environmental chemicals,GG,homozygous ref,G,,AI skipped (--skip-ai flag),N/A,N/A,False,False,False,,--skip-ai flag used
+Gut Brain & Microbiome Resiliance,DAO,rs10156191,"Regulates histamine degradation, affects food sensitivities & inflammation",N/A,not resolved,,,Not available,N/A,N/A,False,True,False,,
+Gut Brain & Microbiome Resiliance,HNMT,rs11558538,"Histamine breakdown enzyme, influences neurotransmitter balance & inflammation",CC,homozygous ref,C,,AI skipped (--skip-ai flag),N/A,N/A,False,True,False,,--skip-ai flag used
+Immune Function & Autoimmunity,HLA-DQ2,rs2187668,"Primary genetic risk factor for celiac disease, gluten sensitivity",CC,homozygous ref,C,,AI skipped (--skip-ai flag),N/A,N/A,False,True,False,,--skip-ai flag used
+Immune Function & Autoimmunity,HLA-DQ8,rs7454108,"Increased gluten intolerance risk, linked to autoimmune conditions",TT,homozygous ref,T,,AI skipped (--skip-ai flag),N/A,N/A,False,True,False,,--skip-ai flag used
+Immune Function & Autoimmunity,IL6,rs1800795,Elevated IL-6 levels linked to chronic inflammation & immune dysregulation,N/A,not resolved,,,Not available,N/A,N/A,False,True,False,,
+Immune Function & Autoimmunity,TNF,rs1800629,"Increased TNF-alpha, linked to immune activation & inflammation",GG,homozygous ref,G,,AI skipped (--skip-ai flag),N/A,N/A,False,True,False,,--skip-ai flag used
+Immune Function & Autoimmunity,IL10,rs1800896,"Anti-inflammatory cytokine, regulates immune balance",TT,homozygous ref,T,,AI skipped (--skip-ai flag),N/A,N/A,False,True,False,,--skip-ai flag used
+Immune Function & Autoimmunity,CTLA4,rs231775,"T-cell regulation, linked to autoimmune susceptibility",AA,homozygous ref,A,,AI skipped (--skip-ai flag),N/A,N/A,False,False,False,,--skip-ai flag used
+Immune Function & Autoimmunity,PTPN22,rs2476601,"Associated with autoimmune diseases, including Type 1 diabetes and rheumatoid arthritis",GG,homozygous alt,A,G,AI skipped (--skip-ai flag),N/A,N/A,True,False,False,,--skip-ai flag used
+Immune Function & Autoimmunity,IFNG,rs2430561,"Regulates antiviral response, important for infection resistance",TT,homozygous ref,T,,AI skipped (--skip-ai flag),N/A,N/A,False,False,False,,--skip-ai flag used
+Immune Function & Autoimmunity,IFNL3,rs12979860,"Modulates immune response to viral infections, linked to hepatitis C resistance",CC,homozygous ref,C,,AI skipped (--skip-ai flag),N/A,N/A,False,False,False,,--skip-ai flag used
+Immune Function & Autoimmunity,FCER1A,rs2251746,"Regulates allergic reactions, IgE production, linked to asthma and food allergies",TC,heterozygous,T,C,AI skipped (--skip-ai flag),N/A,N/A,True,False,False,,--skip-ai flag used
+Immune Function & Autoimmunity,IL4,rs2070874,Influences allergy susceptibility and histamine response,CC,homozygous ref,C,,AI skipped (--skip-ai flag),N/A,N/A,False,False,False,,--skip-ai flag used
+ADHD,DRD2,rs1800497,Regulates dopamine receptor sensitivity; affects impulsivity & reward processing,AA,homozygous alt,G,A,AI skipped (--skip-ai flag),N/A,N/A,True,True,False,,--skip-ai flag used
+ADHD,DRD5,rs6283,"Impacts dopamine function, linked to ADHD & cognitive flexibility",CC,homozygous ref,C,,AI skipped (--skip-ai flag),N/A,N/A,False,True,False,,--skip-ai flag used
+ADHD,SLC6A3,rs28363170,"Regulates dopamine transporter activity, linked to hyperactivity & impulsivity",N/A,not resolved,,,Not available,N/A,N/A,False,True,True,VNTR (variable number tandem repeat) — not typically in standard VCF,
+ADHD,SLC18A2,rs363399,"Involved in dopamine storage & release, affecting motivation & attention",TT,homozygous ref,T,,AI skipped (--skip-ai flag),N/A,N/A,False,True,False,,--skip-ai flag used
+ADHD,COMT,rs4680,Slower dopamine breakdown; affects stress tolerance & executive function,GA,heterozygous,G,A,AI skipped (--skip-ai flag),N/A,N/A,True,True,False,,--skip-ai flag used
+ADHD,CACNA1C,rs2239030,Involved in neuronal excitability; linked to ADHD risk & cognitive function,GG,homozygous ref,G,,AI skipped (--skip-ai flag),N/A,N/A,False,True,False,,--skip-ai flag used
+ADHD,CADM2,rs10433500,Associated with risk-taking behavior & cognitive flexibility,GG,homozygous ref,G,,AI skipped (--skip-ai flag),N/A,N/A,False,True,False,,--skip-ai flag used
+ADHD,FOXP2,rs12537376,Regulates speech & language development; implicated in ADHD & autism,N/A,not resolved,,,Not available,N/A,N/A,False,True,False,,
+ADHD,NLGN1,rs963349,Involved in synaptic function & attention regulation,GG,homozygous ref,G,,AI skipped (--skip-ai flag),N/A,N/A,False,True,False,,--skip-ai flag used
+ADHD,GABRB1,rs13116355,"GABA receptor gene, linked to inhibitory control & emotional regulation",AA,homozygous ref,A,,AI skipped (--skip-ai flag),N/A,N/A,False,True,False,,--skip-ai flag used
+ADHD,ST3GAL3,rs11420276,"Modulates neuronal connectivity, associated with ADHD traits",TTTTTTTTTTTTTTTTTT,homozygous ref,TTTTTTTTT,,AI skipped (--skip-ai flag),N/A,N/A,False,True,False,,--skip-ai flag used
+ADHD,KDM4A,rs1222063,"Regulates histone demethylation, linked to neurodevelopmental function",AA,homozygous alt,G,A,AI skipped (--skip-ai flag),N/A,N/A,True,True,False,,--skip-ai flag used
+ADHD,PCDH7,rs28411770,"Involved in synaptic adhesion, affects attention & memory",TT,homozygous ref,T,,AI skipped (--skip-ai flag),N/A,N/A,False,True,False,,--skip-ai flag used
+ADHD,LINC00461,rs4916723,Linked to neuronal function & cognitive processing,CC,homozygous alt,A,C,AI skipped (--skip-ai flag),N/A,N/A,True,True,False,,--skip-ai flag used
+ADHD,SPAG16,rs9677504,"Impacts sperm-related gene expression, but also linked to brain function",GG,homozygous ref,G,,AI skipped (--skip-ai flag),N/A,N/A,False,True,False,,--skip-ai flag used
+ADHD,GABRB2,rs1946247,GABA receptor variant affecting inhibitory control,GG,homozygous alt,T,G,AI skipped (--skip-ai flag),N/A,N/A,True,True,False,,--skip-ai flag used
+ADHD,DOCK4,rs10155855,"Involved in cell migration & brain development, linked to ADHD",N/A,not resolved,,,Not available,N/A,N/A,False,True,False,,
+ADHD,IMMP2L,rs10155855,Associated with neurodevelopmental disorders including ADHD,N/A,not resolved,,,Not available,N/A,N/A,False,True,False,,
+ADHD,FUT9,rs4839827,"Regulates fucosylation, linked to brain development & cognitive function",CC,homozygous ref,C,,AI skipped (--skip-ai flag),N/A,N/A,False,True,False,,--skip-ai flag used
+ADHD,FHL5,rs4839827,Plays a role in transcriptional regulation in neurodevelopment,CC,homozygous ref,C,,AI skipped (--skip-ai flag),N/A,N/A,False,True,False,,--skip-ai flag used
+Neurotransmitters & ADHD,TARDBP,rs943088,Regulates dopamine signaling & ADHD risk,AC,heterozygous,A,C,AI skipped (--skip-ai flag),N/A,N/A,True,False,False,,--skip-ai flag used
+Neurotransmitters & ADHD,GCH1,rs8007267,"Important for dopamine synthesis, affects motivation & cognitive drive",N/A,not resolved,,,Not available,N/A,N/A,False,False,False,,
+Neurotransmitters & ADHD,GRIN2B,rs1805247,"Modulates NMDA receptor function, linked to learning speed & focus",AA,homozygous ref,A,,AI skipped (--skip-ai flag),N/A,N/A,False,False,False,,--skip-ai flag used
+Gut-Brain Axis,CD14,rs2569190,Plays a role in gut immune function & inflammation response,AG,heterozygous,A,G,AI skipped (--skip-ai flag),N/A,N/A,True,False,False,,--skip-ai flag used
+Gut-Brain Axis,LCT,rs4988235,"Determines lactose tolerance, affects gut health",GG,homozygous ref,G,,AI skipped (--skip-ai flag),N/A,N/A,False,False,False,,--skip-ai flag used
+Gut-Brain Axis,SLC22A4,rs1050152,Regulates gut barrier integrity & IBD risk,CC,homozygous ref,C,,AI skipped (--skip-ai flag),N/A,N/A,False,False,False,,--skip-ai flag used
+Detox Pathways,CYP2E1,rs2070673,"Metabolizes alcohol & toxins, linked to liver detox efficiency",AT,heterozygous,A,T,AI skipped (--skip-ai flag),N/A,N/A,True,False,False,,--skip-ai flag used
+Detox Pathways,POR,rs1057868,Regulates CYP enzyme function for detoxification,N/A,not resolved,,,Not available,N/A,N/A,False,False,False,,
+Detox Pathways,NQO1,rs1800566,Plays a role in detoxifying environmental toxins,GG,homozygous ref,G,,AI skipped (--skip-ai flag),N/A,N/A,False,False,False,,--skip-ai flag used
+Mitochondria & Energy,UQCRC1,rs11237379,Supports electron transport chain function,CC,homozygous alt,T,C,AI skipped (--skip-ai flag),N/A,N/A,True,False,False,,--skip-ai flag used
+Mitochondria & Energy,TFAM,rs1937,Regulates mitochondrial DNA replication & biogenesis,GC,heterozygous,G,C,AI skipped (--skip-ai flag),N/A,N/A,True,False,False,,--skip-ai flag used
+Mitochondria & Energy,PGC1A,rs8192678,Affects mitochondrial energy balance & endurance,CC,homozygous ref,C,,AI skipped (--skip-ai flag),N/A,N/A,False,False,False,,--skip-ai flag used
+Immune & Autoimmune Risks,IL1B,rs1143627,Regulates inflammation & immune response,GG,homozygous ref,G,,AI skipped (--skip-ai flag),N/A,N/A,False,False,False,,--skip-ai flag used
+Immune & Autoimmune Risks,IFNL4,rs368234815,Affects immune response to viral infections,N/A,not resolved,,,Not available,N/A,N/A,False,False,True,Dinucleotide variant (IFNL4 TT>ΔG) — may not appear in standard SNP VCF,
+Immune & Autoimmune Risks,TGFŒ≤1,rs1800469,Plays a role in immune tolerance & autoimmunity,AA,homozygous ref,A,,AI skipped (--skip-ai flag),N/A,N/A,False,False,False,,--skip-ai flag used
+Nutrient Processing,SLC52A1,rs3746804,"Vitamin B2 (Riboflavin) transporter, affects migraine & energy metabolism",GG,homozygous ref,G,,AI skipped (--skip-ai flag),N/A,N/A,False,False,False,,--skip-ai flag used
+Nutrient Processing,SLC19A1,rs1051266,"Folate transport, impacts methylation & neurotransmitter synthesis",N/A,not resolved,,,Not available,N/A,N/A,False,False,False,,
+Nutrient Processing,SLC25A32,rs1171614,Involved in mitochondrial transport of essential nutrients,CC,homozygous alt,T,C,AI skipped (--skip-ai flag),N/A,N/A,True,False,False,,--skip-ai flag used
+Sleep & Circadian Rhythm,PER3,rs228697,Affects sleep-wake cycle & morning alertness,CC,homozygous ref,C,,AI skipped (--skip-ai flag),N/A,N/A,False,False,False,,--skip-ai flag used
+Sleep & Circadian Rhythm,RORC,rs9828145,Regulates circadian rhythms & immune balance,GG,homozygous ref,G,,AI skipped (--skip-ai flag),N/A,N/A,False,False,False,,--skip-ai flag used
+Sleep & Circadian Rhythm,GABRB3,rs4906902,Influences GABA signaling & deep sleep quality,AA,homozygous ref,A,,AI skipped (--skip-ai flag),N/A,N/A,False,False,False,,--skip-ai flag used
+Sleep,CLOCK,rs1801260,"Regulates circadian rhythm, linked to delayed sleep phase syndrome",AA,homozygous ref,A,,AI skipped (--skip-ai flag),N/A,N/A,False,False,False,,--skip-ai flag used
+Sleep,PER2,rs2304672,Influences sleep timing and duration,GG,homozygous ref,G,,AI skipped (--skip-ai flag),N/A,N/A,False,False,False,,--skip-ai flag used
+Sleep,BMAL1,rs3816358,Controls sleep-wake cycles and melatonin release,CC,homozygous ref,C,,AI skipped (--skip-ai flag),N/A,N/A,False,False,False,,--skip-ai flag used
+Sleep,MTNR1B,rs10830963,"Melatonin receptor gene, affects sleep onset and glucose metabolism",CC,homozygous ref,C,,AI skipped (--skip-ai flag),N/A,N/A,False,False,False,,--skip-ai flag used
+Sleep,ASMT,rs57235767,"Enzyme regulating melatonin synthesis, impacts sleep quality",TT,homozygous alt,C,T,AI skipped (--skip-ai flag),N/A,N/A,True,False,False,,--skip-ai flag used
+Sleep,ADORA2A,rs5751876,"Adenosine receptor gene, linked to caffeine sensitivity and sleep disruption",TT,homozygous ref,T,,AI skipped (--skip-ai flag),N/A,N/A,False,False,False,,--skip-ai flag used
+Social Processing,OXTR,rs53576,"Oxytocin receptor; impacts empathy, bonding, social behaviors — key for ASD/ADHD traits",AA,homozygous ref,A,,AI skipped (--skip-ai flag),N/A,N/A,False,False,False,,--skip-ai flag used
+Language/Cognition,CNTNAP2,rs2710102,"Language development, ASD risk, cortical connectivity",N/A,not resolved,,,Not available,N/A,N/A,False,False,False,,
+Language Delay,DCDC2,rs793842,Dyslexia-related gene; cognitive delays and reading disorders,TT,homozygous ref,T,,AI skipped (--skip-ai flag),N/A,N/A,False,False,False,,--skip-ai flag used
+Learning Delay,KIAA0319,rs9461045,Affects phonological processing and reading ability,CC,homozygous ref,C,,AI skipped (--skip-ai flag),N/A,N/A,False,False,False,,--skip-ai flag used
+"Methylation, Folate, & Nutrient",BHMT,rs3733890,Links homocysteine → methionine; key for full methylation cycle,GA,heterozygous,G,A,AI skipped (--skip-ai flag),N/A,N/A,True,False,False,,--skip-ai flag used
+"Methylation, Folate, & Nutrient",CBS,rs234706,Affects sulfur metabolism; excess ammonia/sulfur can cause neuro symptoms,N/A,not resolved,,,Not available,N/A,N/A,False,False,False,,
+"Methylation, Folate, & Nutrient",SUOX,rs7297662,Sulfite oxidase; relevant in sulfur overload → behavioral regression,GG,homozygous ref,G,,AI skipped (--skip-ai flag),N/A,N/A,False,False,False,,--skip-ai flag used
+Detox / Toxin Load / EMF Sensitivity,SOD2,rs4880,Superoxide dismutase; mitochondrial ROS cleanup — key for resilience in toxic load,AA,homozygous ref,A,,AI skipped (--skip-ai flag),N/A,N/A,False,False,False,,--skip-ai flag used
+Detox / Toxin Load / EMF Sensitivity,NOS3,rs1799983,"Nitric oxide production; impacts vascular tone, detox pathways",N/A,not resolved,,,Not available,N/A,N/A,False,False,False,,
+Detox / Toxin Load / EMF Sensitivity,PARP1,rs1136410,"DNA repair under oxidative stress (esp. EMFs, mold exposure)",AA,homozygous ref,A,,AI skipped (--skip-ai flag),N/A,N/A,False,False,False,,--skip-ai flag used
+Epigenetic / Histone Regulation / Neurodevelopment,MECP2,rs2734647,Regulates gene silencing; Rett syndrome marker and more general cognitive implications,C,hemizygous,T,C,AI skipped (--skip-ai flag),N/A,N/A,True,False,False,,--skip-ai flag used
+Epigenetic / Histone Regulation / Neurodevelopment,HDAC9,rs2107595,"Histone deacetylase gene, affects memory formation and stress reactivity",N/A,not resolved,,,Not available,N/A,N/A,False,False,False,,
+Epigenetic / Histone Regulation / Neurodevelopment,DNMT3B,rs2424913,"DNA methylation enzyme; modulates neurodevelopment, plasticity",CT,heterozygous,C,T,AI skipped (--skip-ai flag),N/A,N/A,True,False,False,,--skip-ai flag used
+Pediatric Longevity / Mito-Aging / Repair Potential,SIRT1,rs12778366,"Regulates mitochondrial function, cellular repair, circadian regulation",TT,homozygous ref,T,,AI skipped (--skip-ai flag),N/A,N/A,False,False,False,,--skip-ai flag used
+Pediatric Longevity / Mito-Aging / Repair Potential,FOXO3,rs2802292,"Longevity gene, antioxidant regulation; stress resistance marker",GG,homozygous ref,G,,AI skipped (--skip-ai flag),N/A,N/A,False,False,False,,--skip-ai flag used
+Pediatric Longevity / Mito-Aging / Repair Potential,TP53,rs1042522,Tumor suppressor and key DNA repair gene; chronic illness resilience,CC,homozygous alt,G,C,AI skipped (--skip-ai flag),N/A,N/A,True,False,False,,--skip-ai flag used
+Pediatric Pharmacogenomics,CYP2D6,rs3892097,"Impacts drug metabolism — especially psych meds (SSRIs, stimulants)",CC,homozygous ref,C,,AI skipped (--skip-ai flag),N/A,N/A,False,False,False,,--skip-ai flag used
+Pediatric Pharmacogenomics,CYP2C19,rs4244285,"Important for proton pump inhibitors, clopidogrel, SSRIs",GG,homozygous ref,G,,AI skipped (--skip-ai flag),N/A,N/A,False,False,False,,--skip-ai flag used
+Pediatric Pharmacogenomics,SLCO1B1,rs4149056,"Statin sensitivity — may not be pediatric-useful now, but useful in lifespan lens",TT,homozygous ref,T,,AI skipped (--skip-ai flag),N/A,N/A,False,False,False,,--skip-ai flag used
