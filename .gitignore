@@ -209,8 +209,5 @@ __marimo__/
 # Input files
 data/
 
-# Output files
-output/
-
 # Agentic
 /.agents
