@@ -1,0 +1,32 @@
+version: "3.9"
+
+services:
+  # ── CLI Pipeline ──────────────────────────────────────────────────────────
+  pipeline:
+    build: .
+    container_name: genomics_pipeline
+    env_file: .env
+    volumes:
+      - ./data:/app/data        # Input VCF + TSV (read-only recommended)
+      - ./output:/app/output    # Output CSV + Markdown report
+    command: >
+      python src/main.py
+      --vcf "data/sample_nucleus_dna_download_vcf_NU-DRSQ-5692_copy.vcf"
+      --snps "data/TEST _ Genomics  - Sheet1.tsv"
+      --output output/
+    profiles:
+      - cli
+
+  # ── Streamlit Dashboard ───────────────────────────────────────────────────
+  app:
+    build: .
+    container_name: genomics_app
+    env_file: .env
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./data:/app/data
+      - ./output:/app/output
+    command: streamlit run src/app.py --server.address 0.0.0.0 --server.port 8501
+    profiles:
+      - streamlit
